@@ -25,3 +25,17 @@ body {
     text-wrap: balance;
   }
 }
+body {
+  transition-property: opacity, transform, filter, background;
+  transition-timing-function: ease-in-out;
+  transition-duration: 500ms;
+}
+
+.page-transition {
+  opacity: 0.5;
+  background: rgb(51, 50, 54);
+  transform: translate3d(20px, 20px, 20px, 20px);
+  filter: blur(12px);
+}
+
+
